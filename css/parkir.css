@@ -1,0 +1,153 @@
+.canvas-option{
+	position: absolute;
+	right: 200px;
+	top: 120px;
+	width: 400px;
+	height: 400px;
+	background-color: rgb(72, 185, 130);
+	border-radius: 500px;
+}
+
+.garis1{
+	vertical-align: bottom;
+	border-left: 2px solid white;
+	border-top: 2px solid white;
+	width: 50px;
+	height: 165px;
+	position: absolute;
+	top: 35px;
+	right: 180px;
+}
+
+.garis1:after{
+	position: absolute;
+	top: 160px;
+	left: 40px;
+	top: -10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: white;
+	content: "";
+}
+
+.garis2{
+	position: absolute;
+	top: 35px;
+	right: 200px;
+}
+
+.motor{
+	position:absolute; 
+	left:35px; 
+	top:30px;
+}
+
+.motor-hover{
+	position:absolute; 
+	left:35px; 
+	top:35px;
+	font-size: 33px;
+}
+
+.mobil{
+	position:absolute; 
+	left: 50px; 
+	top:30px;
+}
+
+.mobil-hover{
+	position:absolute; 
+	left: 50px; 
+	top:35px;
+	font-size: 33px;
+}
+
+.huruf{
+	font-size: 35px;
+	padding-top: 65px;
+	cursor: pointer;
+}
+
+.gambar-mobil{
+	position: absolute;
+	top: 45px;
+}
+
+.gambar-mobil-hover{
+	width: 120px;
+}
+
+.gambar-motor{
+	position: absolute;
+	top: 70px;
+	left: -10px;
+}
+
+.gambar-motor-hover{
+	width: 180px;
+}
+
+.plat{
+	position: relative;
+	top: 150px;
+	left: 275px;
+	font-size: 20px;
+}
+
+.canvas-motor{
+	position: relative;
+	top: 160px;
+	left: 180px;
+	background-color:rgb(25, 185, 133);
+	width: 400px;
+	height: 110px;
+	box-shadow: 0 0 10px #000;
+	vertical-align: bottom;
+	border-bottom: 5px solid #12825E;
+}
+
+.canvas-cek{
+	position: absolute;
+	top: 120px;
+	left: 150px;
+	width: 470px;
+	height: 420px;
+	background-color:  rgb(40, 190, 193);
+	border: 15px solid rgb(200, 220, 221);
+}
+
+.font-cek{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+.garis-tepi-kanan{
+	position: absolute;
+	right: 32px;
+	top: 32px;
+	vertical-align: bottom;
+	border-right: 2px solid white;
+	border-top: 2px solid white;
+	width: 250px;
+	height: 315px;
+}
+
+.garis-tepi-kiri{
+	position: absolute;
+	left: 32px;
+	bottom: 70px;
+	vertical-align: bottom;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 403px;
+	height: 300px;
+}
+
+.pagin{
+	width: 50px;
+	height: 50px;
+	background-color: white
+}

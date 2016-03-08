@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  background: #80B6B8;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 0px;
+  margin-bottom: 30px;
+}
+
+.validasi-login{
+  position: absolute;
+  right: 485px;
+  top:380px;
+
+  width: 420px;
+  height: 50px;
+  border:5px solid rgb(142, 198, 200);
+  border-radius: 30px;
+  font: 14px/21px Monaco, sans-serif;
+  font-size: 18px; 
+  color: white;
+  background-color: rgb(106, 146, 148);
+  box-shadow: 0 0 8px rgba(0,0,0,0.8) !important;
+}
+
+.validasi-login1{
+  position: absolute;
+  right: 455px;
+  top:380px;
+
+  width: 480px;
+  height: 50px;
+  border:5px solid rgb(142, 198, 200);
+  border-radius: 30px;
+  font: 14px/21px Monaco, sans-serif;
+  font-size: 18px; 
+  color: white;
+  background-color: rgb(106, 146, 148);
+  box-shadow: 0 0 8px rgba(0,0,0,0.8) !important;
+}
+
+.validasi-font{
+  position: absolute;
+  left: 10px;
+  top:10px;
+}
+
+.close{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 23px;
+  height:23px;
+}
+
+.close:hover{
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-color: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  color: #DCDDDD;;
+}
+
+.btn {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #BEEEF0;
+  background-image: linear-gradient(to bottom,#89EEF1,#80B6B8);
+  background-repeat: repeat-x;
+  border-color: rgba(134, 223, 226, 1) rgba(255, 255, 255, 0) rgba(133, 213, 216, 0.56);
+
+  display: block;
+  width: 100%;
+  height: 20%;
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  cursor: pointer;
+}
+
+.btn:hover{
+    color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-image: linear-gradient(to bottom,#80B6B8,#80B6B8);
+  background-repeat: repeat-x;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+
+  display: block;
+  width: 100%;
+  height: 20%;
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  cursor: pointer;
+  line-height: 20px;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+ font: 14px/21px Monaco, sans-serif;
+  color: #fefefe;
+}
+
+.canvas{
+  margin: 90px auto 0 auto;
+  padding: 20px; 
+  position: absolute;
+  left: 470px;
+  opacity: 0.9;
+  background-color: rgba(255, 255, 255, 0.36);
+  width: 400px;
+  height:250px;
+}
+
+.form__field {
+  position: relative;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin: 1em 0;
+  background: #EC7125;
+}
+
+label {
+  float: right;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  font-size: 1em;
+  -webkit-transition: -webkit-transform 400ms;
+          transition: transform 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+          transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  line-height: 18px;
+}
+
+.form__field:focus { 
+  background-color: #fff;
+  color: #666 !important; 
+  box-shadow: 0 0 8px rgba(0,0,0,0.8) !important;
+}
+
+input,
+textarea {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 75%;
+  height: 100%;
+  margin-top: 0px;
+  padding: 1em;
+  border: none;
+  -webkit-transform: translate3D(-100%, 0, 0);
+      -ms-transform: translate3D(-100%, 0, 0);
+          transform: translate3D(-100%, 0, 0);
+  -webkit-transition: -webkit-transform 400ms;
+          transition: transform 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+          transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  -webkit-transition-delay: 60ms;
+          transition-delay: 60ms;
+}
+
+input:focus, input.filled,
+textarea:focus,
+textarea.filled {
+  -webkit-transform: translate3D(100%, 0, 0);
+      -ms-transform: translate3D(100%, 0, 0);
+          transform: translate3D(100%, 0, 0);
+  outline: none;
+}
+input:focus + label, input.filled + label,
+textarea:focus + label,
+textarea.filled + label {
+  -webkit-transform: translate3D(75%, 0, 0);
+      -ms-transform: translate3D(75%, 0, 0);
+          transform: translate3D(75%, 0, 0);
+}

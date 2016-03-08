@@ -1,0 +1,87 @@
+.table-user{
+	position: absolute;
+	top: 150px;
+	right: 30px;
+	width: 735px;
+}
+
+th{
+	vertical-align: bottom;
+	border-bottom: 2px solid #C42121;
+	background-color: #4A9CA4;
+	color: white;
+}
+
+td{
+	vertical-align: bottom;
+	border-bottom: 1px solid #C42121;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+tr:hover{
+	background-color: #8ABABF;
+	color: white;
+}
+
+.validasi-font{
+  position: absolute;
+  left: 10px;
+  top:13px;
+}
+
+.close{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 23px;
+  height:23px;
+}
+
+.close:hover{
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-color: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  color: #DCDDDD;;
+}
+
+.validasi-login1{
+  position: absolute;
+  right: -135px;
+  top:370px;
+
+  width: 220px;
+  height: 50px;
+  border:5px solid rgb(142, 198, 200);
+  border-radius: 30px;
+  font: 14px/21px Monaco, sans-serif;
+  font-size: 18px; 
+  color: white;
+  background-color: rgb(106, 146, 148);
+  box-shadow: 0 0 8px rgba(0,0,0,0.8) !important;
+}
+
+.validasi-login{
+  position: absolute;
+  right: 485px;
+  top:380px;
+
+  width: 220px;
+  height: 50px;
+  border:5px solid rgb(142, 198, 200);
+  border-radius: 30px;
+  font: 14px/21px Monaco, sans-serif;
+  font-size: 18px; 
+  color: white;
+  background-color: rgb(106, 146, 148);
+  box-shadow: 0 0 8px rgba(0,0,0,0.8) !important;
+}
